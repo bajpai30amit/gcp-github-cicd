@@ -1,0 +1,14 @@
+# terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+function.zip
+#secrets
+*.json
+*.pem
+*.key
+node_modules/
+#ignoelocal powershel script
+local_activate_ps1
