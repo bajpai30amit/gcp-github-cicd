@@ -43,7 +43,7 @@ jobs:
     - name: Terraform Plan
       run: |
         terraform plan \
-          -var="project_id=${{ secrets.GCP_PROJECT_ID }} \
+          -var="project_id=${{ secrets.GCP_PROJECT_ID }}" \
           -out=tfplan
 
       # On push to "main", build or change infrastructure according to Terraform configuration files
